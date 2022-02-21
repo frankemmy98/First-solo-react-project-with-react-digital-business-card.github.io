@@ -1,0 +1,118 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #363b41;
+  font-family: Inter, san-serif;
+}
+
+.info--me > .my-photo {
+  width: 500px;
+  height: 400px;
+  border-radius: 0 0 10px 10px;
+}
+
+.info--me > h1 {
+  color: #fff;
+  font-size: 25px;
+}
+
+.info--me > h3 {
+  color: brown;
+}
+
+.info--me > p {
+  color: #DEEBF8;
+  font-family: 'Passion one', sans-serif;
+}
+
+.info-link-button {
+  background-color: #fff;
+  text-decoration: none;
+  // display: inline-block;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 40px;
+  // cursor: pointer;
+  // margin: 45px;
+  line-height: 3;
+  color: #000;
+}
+
+.mail-button:hover {
+  background-color: #DEEBF8;
+}
+
+.linkedin-button {
+  background-color: cyan;
+  text-decoration: none;
+  // display: inline-block;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 40px;
+  // cursor: pointer;
+  margin: 0 30px;
+  // margin-top: 950px; 
+  color: #fff;
+}
+
+.linkedin-button:hover {
+  background-color:#DEEBF8;
+}
+
+.mail-icon {
+   width: 20px;
+   margin-right: 10px;
+}
+
+.linkedin-icon {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.about--me {
+  color: #fff;
+  text-align: left;
+  margin: 50px 52px;
+}
+
+.about--me > p {
+  color: #DEEBF8;
+  font-family: 'Passion one', sans-serif;
+}
+
+.interest--me {
+  color: #fff;
+  text-align: left;
+  margin: 50px 52px;
+}
+
+.interest--me > p {
+  color: #DEEBF8;
+  font-family: 'Passion one', sans-serif;
+}
+
+footer {
+  background-color: #21222A;
+  padding: 30px;
+}
+
+.facebook-logo, .twitter-logo, .instagram-logo, .github-logo {
+  width: 40px;
+  margin: 0 30px;
+}
+
+@media(min-width: 768px){
+  .about--me {
+    margin: 50px 473px;
+  }
+  .interest--me {
+    margin: 50px 473px;
+  }
+}
+
